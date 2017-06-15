@@ -39,7 +39,7 @@ class SearchWeather extends React.Component {
         e.preventDefault();
 
         var queryValue = this.refs.query.value;
-        var url = "http://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?q=" + queryValue + "&appid=" + API_KEY;
+        var url = "https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?q=" + queryValue + "&appid=" + API_KEY;
         var weatherInfo = {};
 
         // fetch is a new built-in function for browser
