@@ -5,7 +5,7 @@ var API_KEY = '5efee3c386f4345ea93be1b768f43f78';
 class SearchWeather extends React.Component {
     constructor(props) {
         super(props);
-        
+
         // Initialize state
         this.state = {
             alert: false,
@@ -37,9 +37,9 @@ class SearchWeather extends React.Component {
     // Search function
     handleSubmitSearch(e) {
         e.preventDefault();
-        
+
         var queryValue = this.refs.query.value;
-        var url = "https://www.bell-towne.com/api/weather/?q=" + queryValue + "&appid=" + API_KEY;
+        var url = "http://api.openweathermap.org/data/2.5/weather?q=" + queryValue + "&appid=" + API_KEY;
         var weatherInfo = {};
 
         // fetch is a new built-in function for browser

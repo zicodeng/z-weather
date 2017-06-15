@@ -19,34 +19,35 @@ body {
 }
 
 .bg {
-    background-image: url("http://cdn.allwallpaper.in/wallpapers/4288x2847/3337/ocean-clouds-outer-space-earth-4288x2847-wallpaper.jpg");
+	height: 100vh;
+    background-image: url("./../images/ocean-clouds-outer-space-earth-4288x2847-wallpaper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1000px;
+	background-position: center;
 }
 
 .bg-rain {
-    background-image: url("http://www.siwallpaperhd.com/wp-content/uploads/2016/03/rain_wallpaper_1920x1080.jpg");
+    background-image: url("./../images/2016/03/rain_wallpaper_1920x1080.jpg");
 }
 
 .bg-clear {
-    background-image: url("http://desktop.freewallpaper4.me/view/original/3491/cloudy-sky.jpg");
+    background-image: url("./../images/clear-sky.jpg");
 }
 
 .bg-clouds {
-    background-image: url("http://t.wallpaperweb.org/wallpaper/3d_landscape/2560x1440/sunnyhighlands2560x1440wallpaper1511.jpg");
+    background-image: url("./../images/sunnyhighlands2560x1440wallpaper1511.jpg");
 }
 
 .bg-drizzle {
-    background-image: url("http://www.2rms.com/stockphotos/photos/drops-of-water-rain-weather-601.jpg");
+    background-image: url("./../images/drizzle.jpg");
 }
 
 .bg-mist {
-    background-image: url("http://patricksmithphotography.com/blog/wp-content/uploads/2015/05/100929-4805-FogAtGate1.jpg");
+    background-image: url("./../images/mist.jpg");
 }
 
 .bg-haze {
-    background-image: url("http://eskipaper.com/images/haze-1.jpg");
+    background-image: url("./../images/haze.jpg");
 }
 
 .bg-snow {

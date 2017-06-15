@@ -49,8 +49,8 @@ class SavedList extends React.Component {
 
         // Get saved location
         var location = this.props.savedLocationList[uid];
-        var url = "https://www.bell-towne.com/api/weather/?q=" + location + "&appid=" + API_KEY;
-        
+        var url = "http://api.openweathermap.org/data/2.5/weather?q=" + location + "&appid=" + API_KEY;
+
         fetch(url)
         .then((response) => {
             this.setState({

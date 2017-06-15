@@ -11,11 +11,4 @@ class DisplayWeather extends React.Component {
             </div>
         );
     }
-
-    // kToF() {
-    //     var f = this.state.temp * 9 / 5 - 459.67;
-    //     this.setState({
-    //         temp: f
-    //     });
-    // }
 }
