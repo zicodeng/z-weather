@@ -1,0 +1,138 @@
+body {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+/*app.js CSS*/
+.container > h1 {
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 80px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.bg {
+    background-image: url("http://cdn.allwallpaper.in/wallpapers/4288x2847/3337/ocean-clouds-outer-space-earth-4288x2847-wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.bg-rain {
+    background-image: url("http://www.siwallpaperhd.com/wp-content/uploads/2016/03/rain_wallpaper_1920x1080.jpg");
+}
+
+.bg-clear {
+    background-image: url("http://desktop.freewallpaper4.me/view/original/3491/cloudy-sky.jpg");
+}
+
+.bg-clouds {
+    background-image: url("http://t.wallpaperweb.org/wallpaper/3d_landscape/2560x1440/sunnyhighlands2560x1440wallpaper1511.jpg");
+}
+
+.bg-drizzle {
+    background-image: url("http://www.2rms.com/stockphotos/photos/drops-of-water-rain-weather-601.jpg");
+}
+
+.bg-mist {
+    background-image: url("http://patricksmithphotography.com/blog/wp-content/uploads/2015/05/100929-4805-FogAtGate1.jpg");
+}
+
+.bg-haze {
+    background-image: url("http://eskipaper.com/images/haze-1.jpg");
+}
+
+.bg-snow {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/44/84/6b/44846b88fa8fda12c4bac45d97c102ba.jpg");
+}
+
+/*display-weather.js CSS*/
+.display-weather-container {
+    padding: 25px 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.location-weather {
+    text-align: center;
+}
+
+.location-weather h2{
+    display: inline-block;
+    margin-top: 0;
+}
+
+/*saved-list.js CSS*/
+.saved-list {
+    list-style: none;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 35px 50px 25px 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.saved-list-container > h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.saved-list li {
+    margin-bottom: 10px;
+}
+
+.saved-weather {
+    cursor: pointer;
+}
+
+.saved-weather:hover {
+    color: seagreen;
+}
+
+.delete-weather {
+    cursor: pointer;
+    float: right;
+}
+
+.delete-weather:hover {
+    color: darkred;
+}
+
+.delete-weather:after {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    content: "\f014";
+    font-family: "FontAwesome";
+    margin-left: -10px;
+    opacity: 0;
+}
+
+.delete-weather:hover:after {
+    margin-left: 5px;
+    opacity: 1;
+}
+
+/*save-weather.js CSS*/
+.save-weather {
+    clear: both;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.save-weather button {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+/*search-weather.js*/
+.search-weather .search-form .form-control.input-group {
+    font-size: 16px;
+}
